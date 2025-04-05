@@ -8,13 +8,13 @@ I'm currently in the process of follow the Secure Software Development Lifecycle
 
 A web-based application for secure, private, and temporary file sharing using end-to-end encryption,role-based access control, and time-limited shareable links.
 
-==================================================================================================================
+========================================
 
 Following core ideas and features in this version are based on my previous SecureFileTrans project’s README.
 
-==================================================================================================================
+========================================
 Feature Breakdown and Security Principles
-==================================================================================================================
+========================================
 
 1. User Registration and Authentication
    - Secure login with MFA readiness
@@ -46,9 +46,9 @@ Feature Breakdown and Security Principles
 - No server or DB holds user file contents post-transfer
 - [Minimizing Attack Surface, Reluctant Allocation, Least Privilege]
 
-==================================================================================================================
+========================================
 Tech Stack
-==================================================================================================================
+========================================
 
 - **Backend**: FastAPI (Python)
 - **Security**: JWT (python-jose), bcrypt (passlib)
